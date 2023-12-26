@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # Angular Cache
 .angular/cache/*
+
+# dist folder
+**/dist/
