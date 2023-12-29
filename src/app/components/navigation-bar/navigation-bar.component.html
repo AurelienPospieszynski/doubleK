@@ -9,7 +9,9 @@
 
   <div class="flex space-x-20 font-bold text-black uppercase font-custom1">
     <div class="border-black hover:border-b-2">
-      <button mat-button [matMenuTriggerFor]="jordanMenu">Jordan</button>
+      <button class="custom-button" mat-button [matMenuTriggerFor]="jordanMenu">
+        Jordan
+      </button>
       <mat-menu #jordanMenu="matMenu" yPosition="above">
         <button mat-menu-item>Info 1</button>
         <button mat-menu-item>Info 2</button>
