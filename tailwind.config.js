@@ -7,7 +7,7 @@ module.exports = {
         custom1: ['Noto Serif', 'serif'],
       },
       colors: {
-        customCream: '#a69e79'
+        customCream: '#a69e79',
       },
     },
   },
