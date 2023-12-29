@@ -1,1 +1,50 @@
-<p>navigation-bar works!</p>
+<nav class="flex items-center justify-between p-5 bg-customCream">
+
+    <div class="flex items-center">
+      <img src="../../../assets/pictures/logo2.png" alt="logo-site" class="h-10 mr-2 w-15">
+    </div>
+    
+    <div class="flex space-x-20 font-bold uppercase font-custom1">
+      <div class="border-black hover:border-b-2">
+        <button mat-button [matMenuTriggerFor]="jordanMenu">Jordan</button>
+        <mat-menu #jordanMenu="matMenu" yPosition="above">
+          <button mat-menu-item>Info 1</button>
+          <button mat-menu-item>Info 2</button>
+          <button mat-menu-item>Info 3</button>
+          <button mat-menu-item>Info 4</button>
+        </mat-menu>
+      </div>  
+      
+      <div class="border-black hover:border-b-2">
+        <button mat-button [matMenuTriggerFor]="nikeMenu">Nike</button>
+        <mat-menu #nikeMenu="matMenu" yPosition="above">
+          <button mat-menu-item>Info 1</button>
+          <button mat-menu-item>Info 2</button>
+          <button mat-menu-item>Info 3</button>
+          <button mat-menu-item>Info 4</button>
+        </mat-menu>
+      </div>
+      
+      <div class="border-black hover:border-b-2">
+        <button mat-button [matMenuTriggerFor]="adidasMenu">Adidas</button>
+        <mat-menu #adidasMenu="matMenu" yPosition="above">
+          <button mat-menu-item>Info 1</button>
+          <button mat-menu-item>Info 2</button>
+          <button mat-menu-item>Info 3</button>
+          <button mat-menu-item>Info 4</button>
+        </mat-menu>
+      </div>  
+    </div>  
+  
+    <div class="flex items-center space-x-10">
+      <a href="#" class="text-2xl transition-transform duration-300 ease-in-out transform hover:scale-150 ">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="#" class="text-2xl transition-transform duration-300 ease-in-out transform hover:scale-150">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="text-2xl transition-transform duration-300 ease-in-out transform hover:scale-150">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </nav>
