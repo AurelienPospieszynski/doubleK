@@ -13,7 +13,8 @@ body {
   margin: 0;
 }
 
-/* Add this class */
-.custom-button {
-  @apply font-custom1;
+@layer components {
+  .custom-button {
+    @apply font-custom1;
+  }
 }
