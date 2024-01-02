@@ -1,14 +1,15 @@
-<nav class="flex items-center justify-between p-5 bg-customCream">
+<nav class="flex items-center justify-between p-6 bg-colorMenu">
   <div class="flex items-center">
     <img
       src="../../../assets/pictures/logo2.png"
       alt="logo-site"
-      class="h-10 mr-2 w-15"
+      class="size-14"
     />
+    <h1 class="ml-5 text-colorCream font-font2">Sneakers Store</h1>
   </div>
 
-  <div class="flex space-x-20 font-bold text-black uppercase font-custom1">
-    <div class="border-black hover:border-b-2">
+  <div class="flex space-x-20 font-bold uppercase text-ColorFontMenu font-font1">
+    <div class="border-ColorFontMenu hover:border-b-2">
       <button class="custom-button" mat-button [matMenuTriggerFor]="jordanMenu">
         Jordan
       </button>
@@ -19,8 +20,8 @@
         <button mat-menu-item>Info 4</button>
       </mat-menu>
     </div>
-
-    <div class="border-black hover:border-b-2">
+      
+    <div class="border-ColorFontMenu hover:border-b-2">
       <button mat-button [matMenuTriggerFor]="nikeMenu">Nike</button>
       <mat-menu #nikeMenu="matMenu" yPosition="above">
         <button mat-menu-item>Info 1</button>
@@ -30,9 +31,9 @@
       </mat-menu>
     </div>
 
-    <div class="border-black hover:border-b-2">
-      <button mat-button [matMenuTriggerFor]="adidasMenu">Adidas</button>
-      <mat-menu #adidasMenu="matMenu" yPosition="above">
+    <div class="border-ColorFontMenu hover:border-b-2">
+      <button mat-button [matMenuTriggerFor]="NewBalanceMenu">New Balance</button>
+      <mat-menu #NewBalanceMenu="matMenu" yPosition="above">
         <button mat-menu-item>Info 1</button>
         <button mat-menu-item>Info 2</button>
         <button mat-menu-item>Info 3</button>
@@ -41,7 +42,7 @@
     </div>
   </div>
 
-  <div class="flex items-center space-x-10">
+  <div class="flex items-center space-x-10 text-ColorFontMenu">
     <a
       href="#"
       class="text-2xl transition-transform duration-300 ease-in-out transform hover:scale-150"

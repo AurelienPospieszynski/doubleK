@@ -4,10 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom1: ['Noto Serif', 'serif'],
+        font1: ['Montserrat', 'sans-serif'],
+        font2: ['Orbitron', 'sans-serif'],
       },
       colors: {
-        customCream: '#a69e79',
+        colorMenu: '#fef8e0',
+        colorCream: '#a69e79',
+        ColorFontMenu: '#39360b',
       },
     },
   },
