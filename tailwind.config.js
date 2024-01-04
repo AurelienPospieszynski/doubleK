@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        font1: ['Montserrat', 'sans-serif'],
-        font2: ['Orbitron', 'sans-serif'],
+        fontOrbitron: ['Orbitron', 'sans-serif'],
       },
       colors: {
         colorMenu: '#fef8e0',
