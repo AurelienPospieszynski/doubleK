@@ -3,9 +3,11 @@ import { isPlatformBrowser } from '@angular/common';
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 Swiper.use([Navigation]);
 Swiper.use([Pagination]);
+Swiper.use([Autoplay]);
 
 @Component({
   selector: 'app-caroussel',
@@ -30,6 +32,11 @@ export class CarousselComponent implements AfterViewInit {
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
+        },
+        // Enable autoplay
+        autoplay: {
+          delay: 5000, // Delay between transitions (in ms)
+          disableOnInteraction: false, // Autoplay will not pause when the mouse is over the carousel
         },
       });
     }
