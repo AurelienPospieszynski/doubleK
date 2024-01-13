@@ -2,12 +2,13 @@
 
 This application is a sneaker store. It allows users to browse a variety of sneakers, view details about each sneaker, and add sneakers to their shopping cart.
 
-## Libraries Used
+## Librairies Used
 
 - [Angular](https://angular.dev/) (v17.0.8): A platform for building web applications.
 - [RxJS](https://rxjs.dev/) (v7.8.0): A library for reactive programming using Observables.
 - [Angular Material](https://material.angular.io/) (v17.0.4): Material Design components for Angular.
 - [TailwindCSS](https://tailwindcss.com/) (v3.4.0): State Management for Angular applications.
+- [Swipper](https://swiperjs.com/) (v11.0.5): Slider library for web applications.
 
 ## Development server
 
