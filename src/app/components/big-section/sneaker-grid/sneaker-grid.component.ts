@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @Component({
   selector: 'app-sneaker-grid',
   standalone: true,
-  imports: [],
+  imports: [MatGridListModule],
   templateUrl: './sneaker-grid.component.html',
-  styleUrl: './sneaker-grid.component.scss'
 })
 export class SneakerGridComponent {
 
