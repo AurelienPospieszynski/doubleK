@@ -80,4 +80,8 @@
       <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
     </mat-menu>
   </div>
+  <div>
+    <input type="text" placeholder="Rechercher..." [(ngModel)]="searchQuery" class="p-1 border-2 border-solid border-colorCream rounded-[32px] hover:bg-gray-200 text-ColorFontMenu hover:border-colorCream"/>
+    <button (click)="search()" class="ml-2 text-colorCream">Rechercher</button>
+  </div>
 </div>
