@@ -15,8 +15,12 @@
       Jordan
     </button>
     <mat-menu #jordan="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">Hommes</button>
-      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">Femmes</button>
+      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">
+        Hommes
+      </button>
+      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">
+        Femmes
+      </button>
     </mat-menu>
 
     <mat-menu #hommes="matMenu" class="mt-5 bg-colorCream">
@@ -39,8 +43,12 @@
       Nike
     </button>
     <mat-menu #nike="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">Hommes</button>
-      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">Femmes</button>
+      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">
+        Hommes
+      </button>
+      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">
+        Femmes
+      </button>
     </mat-menu>
 
     <mat-menu #hommes="matMenu" class="mt-5 bg-colorCream">
@@ -55,7 +63,6 @@
       <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
 
-
     <button
       mat-button
       [matMenuTriggerFor]="NewBalance"
@@ -64,8 +71,12 @@
       New Balance
     </button>
     <mat-menu #NewBalance="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">Hommes</button>
-      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">Femmes</button>
+      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">
+        Hommes
+      </button>
+      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">
+        Femmes
+      </button>
     </mat-menu>
 
     <mat-menu #hommes="matMenu" class="mt-5 bg-colorCream">
@@ -82,6 +93,11 @@
   </div>
   <div class="relative">
     <mat-icon class="text-gray-500">search</mat-icon>
-    <input type="text" placeholder="Rechercher une paire..." [(ngModel)]="searchQuery" class="p-1 border-2 border-solid border-colorCream rounded-[32px] hover:bg-gray-200 text-ColorFontMenu hover:border-colorCream"/>
-</div>
+    <input
+      type="text"
+      placeholder="Rechercher une paire..."
+      [(ngModel)]="searchQuery"
+      class="p-1 border-2 border-solid border-colorCream rounded-[32px] hover:bg-gray-200 text-ColorFontMenu hover:border-colorCream"
+    />
+  </div>
 </div>
