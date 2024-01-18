@@ -1,14 +1,16 @@
-<mat-grid-list cols="3" class="relative mx-14"> 
-    <mat-grid-tile *ngFor="let sneaker of sneakers; let i = index">
-        <div class="m-4">
-            <div class="absolute top-0 left-0 right-0 flex items-center justify-center m-4 border-2 border-black border-solid h-14 rounded-t-xl bg-ColorFontMenu" [ngClass]="{'bg-ColorFontMenu': i % 2 === 0, 'bg-colorCream': i % 2 !== 0}">
-                <div class="flex items-center space-x-5 font-bold uppercase font-fontMontserrat" [ngClass]="{'text-colorCream': i % 2 === 0, 'text-ColorFontMenu': i % 2 !== 0}">
-                    <h3 class="pr-4 m-0 mr-4 font-bold">{{ sneaker.name }}</h3>
-                    <p class="m-0 mr-4">Marque: {{ sneaker.brand }}</p>
-                    <p class="m-0">Prix: {{ sneaker.price }}€</p>
+<mat-grid-list cols="3"> 
+    <mat-grid-tile *ngFor="let sneaker of sneakers; let i = index" class="ml-28 size-96">
+        <div>
+            <div class="rounded-[32px] flex items-center border-2 border-black border-solid rounded-t-xl bg-ColorFontMenu" [ngClass]="{'bg-ColorFontMenu': i % 2 === 0, 'bg-colorCream': i % 2 !== 0}">
+                <div class="font-bold uppercase font-fontMontserrat" [ngClass]="{'text-colorCream': i % 2 === 0, 'text-ColorFontMenu': i % 2 !== 0}">
+                    <div class="flex items-center m-2 space-x-5">
+                        <h3 class="pr-4 m-2 ml-4 font-bold border-r-2 border-black border-solid">{{ sneaker.name }}</h3>
+                        <p class="m-0 border-r-2 border-black border-solid">Marque: {{ sneaker.brand }}</p>
+                        <p class="m-0">Prix: {{ sneaker.price }}€</p>
+                    </div>    
+                    <img src="assets/pictures/sneakers/{{ sneaker.image }}" alt="img jordan 3" class="rounded-[32px] border-t-2 border-solid border-black rounded-t-none">
                 </div>
             </div>
-            <img src="assets/pictures/sneakers/{{ sneaker.image }}" alt="img jordan 3" class="rounded-[32px] border-2 border-solid border-black">
         </div>      
     </mat-grid-tile>
 </mat-grid-list>

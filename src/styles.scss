@@ -82,3 +82,11 @@ button {
   font-weight: inherit;
   font-style: inherit;
 }
+
+.buttonSubMenu {
+  @apply italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu;
+}
+
+.buttonMenu {
+  @apply uppercase text-colorMenu;
+}
