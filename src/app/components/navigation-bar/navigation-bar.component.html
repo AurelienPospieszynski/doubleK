@@ -91,13 +91,13 @@
       <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
   </div>
-  <div class="relative">
-    <mat-icon class="text-gray-500">search</mat-icon>
+  <div class="relative mr-6">
     <input
-      type="text"
-      placeholder="Rechercher une paire..."
-      [(ngModel)]="searchQuery"
-      class="p-1 border-2 border-solid border-colorCream rounded-[32px] hover:bg-gray-200 text-ColorFontMenu hover:border-colorCream"
+        type="text"
+        placeholder="Rechercher une paire..."
+        [(ngModel)]="searchQuery"
+        class="p-2 border-2 border-solid border-colorCream rounded-[32px] hover:bg-gray-200 text-ColorFontMenu hover:border-colorCream pl-8"
     />
-  </div>
+    <mat-icon class="absolute text-gray-500 cursor-pointer top-2 left-2">search</mat-icon>
+</div>
 </div>
