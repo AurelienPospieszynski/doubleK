@@ -14,7 +14,8 @@ module.exports = {
         ColorFontMenu: "#39360b",
       },
       screens: {
-        'lg': '1150px',
+        'xl': '1200px',
+        'custom': '1450px'
       },
     },
   },

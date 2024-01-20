@@ -1,6 +1,6 @@
-<div class="w-4/5 ml-36">
-    <mat-grid-list cols="3">
-      <mat-grid-tile *ngFor="let sneaker of sneakers; let i = index" class="ml-14 size-72">
+<div class="w-4/5 ml-36 ">
+    <div class="grid grid-cols-2 grid-rows-3 gap-4 custom:grid-cols-3 lg:px-12 xl:px-28">
+      <div *ngFor="let sneaker of sneakers; let i = index" class="ml-14 size-72 lg:mb-24">
         <div>
           <div class="rounded-[32px] flex items-center border-2 border-black border-solid rounded-t-xl bg-ColorFontMenu" [ngClass]="{'bg-ColorFontMenu': i % 2 === 0, 'bg-colorCream': i % 2 !== 0}">
             <div class="uppercase font-fontMontserrat" [ngClass]="{'text-colorCream': i % 2 === 0, 'text-ColorFontMenu': i % 2 !== 0}">
@@ -13,6 +13,6 @@
             </div>
           </div>
         </div>
-      </mat-grid-tile>
-    </mat-grid-list>
+      </div>
+    </div>
   </div>
