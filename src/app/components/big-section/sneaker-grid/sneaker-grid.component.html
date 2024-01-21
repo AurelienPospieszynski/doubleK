@@ -1,18 +1,41 @@
-<div class="w-4/5 ml-36 ">
-    <div class="grid grid-cols-2 grid-rows-3 gap-4 custom:grid-cols-3 lg:px-12 xl:px-28">
-      <div *ngFor="let sneaker of sneakers; let i = index" class="ml-14 size-72 lg:mb-24">
-        <div>
-          <div class="rounded-[32px] flex items-center border-2 border-black border-solid rounded-t-xl bg-ColorFontMenu" [ngClass]="{'bg-ColorFontMenu': i % 2 === 0, 'bg-colorCream': i % 2 !== 0}">
-            <div class="uppercase font-fontMontserrat" [ngClass]="{'text-colorCream': i % 2 === 0, 'text-ColorFontMenu': i % 2 !== 0}">
-              <div class="flex items-center m-2 space-x-5 font-bold ">
-                <h3 class="pr-4 m-2 ml-4 text-sm/[14px] font-bold">{{ sneaker.name }}</h3>
-                <p class="m-0">Marque: {{ sneaker.brand }}</p>
-                <p class="m-0">Prix: {{ sneaker.price }}€</p>
-              </div>    
-              <img src="assets/pictures/sneakers/{{ sneaker.image }}" alt="img jordan 3" class="rounded-[32px] border-t-2 border-solid border-black rounded-t-none">
+<div class="w-4/5 ml-36 mt-7">
+  <div
+    class="grid grid-cols-2 grid-rows-3 gap-4 custom:grid-cols-3 lg:px-12 xl:px-28"
+  >
+    <div
+      *ngFor="let sneaker of sneakers; let i = index"
+      class="ml-14 size-72 lg:mb-24"
+    >
+      <div>
+        <div
+          class="rounded-[32px] flex items-center border-2 border-black border-solid rounded-t-xl bg-ColorFontMenu"
+          [ngClass]="{
+            'bg-ColorFontMenu': i % 2 === 0,
+            'bg-colorCream': i % 2 !== 0
+          }"
+        >
+          <div
+            class="uppercase font-fontMontserrat"
+            [ngClass]="{
+              'text-colorCream': i % 2 === 0,
+              'text-ColorFontMenu': i % 2 !== 0
+            }"
+          >
+            <div class="flex items-center m-2 space-x-5 font-bold">
+              <h3 class="pr-4 m-2 ml-4 text-sm/[14px] font-bold">
+                {{ sneaker.name }}
+              </h3>
+              <p class="m-0">Marque: {{ sneaker.brand }}</p>
+              <p class="m-0">Prix: {{ sneaker.price }}€</p>
             </div>
+            <img
+              src="assets/pictures/sneakers/{{ sneaker.image }}"
+              alt="img jordan 3"
+              class="rounded-[32px] border-t-2 border-solid border-black rounded-t-none"
+            />
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
