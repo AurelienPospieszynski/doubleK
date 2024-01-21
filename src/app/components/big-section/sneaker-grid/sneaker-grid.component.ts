@@ -1,12 +1,13 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-
+import { MatGridListModule } from '@angular/material/grid-list';
+import { SNEAKERS } from '../../../../assets/database/sneakers';
 @Component({
   selector: 'app-sneaker-grid',
   standalone: true,
-  imports: [],
+  imports: [MatGridListModule, CommonModule],
   templateUrl: './sneaker-grid.component.html',
-  styleUrl: './sneaker-grid.component.scss'
 })
 export class SneakerGridComponent {
-
+  sneakers = SNEAKERS;
 }

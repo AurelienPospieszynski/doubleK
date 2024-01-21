@@ -13,6 +13,10 @@ module.exports = {
         colorCream: "#a69e79",
         ColorFontMenu: "#39360b",
       },
+      screens: {
+        'xl': '1200px',
+        'custom': '1450px'
+      },
     },
   },
   variants: {

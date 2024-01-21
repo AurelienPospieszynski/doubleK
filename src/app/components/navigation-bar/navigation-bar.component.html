@@ -15,20 +15,24 @@
       Jordan
     </button>
     <mat-menu #jordan="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item [matMenuTriggerFor]="hommes" class="uppercase text-colorMenu">Hommes</button>
-      <button mat-menu-item [matMenuTriggerFor]="femmes" class="uppercase text-colorMenu">Femmes</button>
+      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">
+        Hommes
+      </button>
+      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">
+        Femmes
+      </button>
     </mat-menu>
 
     <mat-menu #hommes="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Lifestyle</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Sport</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
+      <button mat-menu-item class="buttonSubMenu">Lifestyle</button>
+      <button mat-menu-item class="buttonSubMenu">Sport</button>
+      <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
 
     <mat-menu #femmes="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Lifestyle</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Sport</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
+      <button mat-menu-item class="buttonSubMenu">Lifestyle</button>
+      <button mat-menu-item class="buttonSubMenu">Sport</button>
+      <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
 
     <button
@@ -39,22 +43,25 @@
       Nike
     </button>
     <mat-menu #nike="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item [matMenuTriggerFor]="hommes" class="uppercase text-colorMenu">Hommes</button>
-      <button mat-menu-item [matMenuTriggerFor]="femmes" class="uppercase text-colorMenu">Femmes</button>
+      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">
+        Hommes
+      </button>
+      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">
+        Femmes
+      </button>
     </mat-menu>
 
     <mat-menu #hommes="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Lifestyle</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Sport</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
+      <button mat-menu-item class="buttonSubMenu">Lifestyle</button>
+      <button mat-menu-item class="buttonSubMenu">Sport</button>
+      <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
 
     <mat-menu #femmes="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Lifestyle</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Sport</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
+      <button mat-menu-item class="buttonSubMenu">Lifestyle</button>
+      <button mat-menu-item class="buttonSubMenu">Sport</button>
+      <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
-
 
     <button
       mat-button
@@ -64,20 +71,33 @@
       New Balance
     </button>
     <mat-menu #NewBalance="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item [matMenuTriggerFor]="hommes" class="uppercase text-colorMenu">Hommes</button>
-      <button mat-menu-item [matMenuTriggerFor]="femmes" class="uppercase text-colorMenu">Femmes</button>
+      <button mat-menu-item [matMenuTriggerFor]="hommes" class="buttonMenu">
+        Hommes
+      </button>
+      <button mat-menu-item [matMenuTriggerFor]="femmes" class="buttonMenu">
+        Femmes
+      </button>
     </mat-menu>
 
     <mat-menu #hommes="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Lifestyle</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Sport</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
+      <button mat-menu-item class="buttonSubMenu">Lifestyle</button>
+      <button mat-menu-item class="buttonSubMenu">Sport</button>
+      <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
 
     <mat-menu #femmes="matMenu" class="mt-5 bg-colorCream">
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Lifestyle</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Sport</button>
-      <button mat-menu-item class="italic text-colorMenu hover:underline hover:scale-110 hover:transition-transform hover:text-ColorFontMenu">Basket</button>
+      <button mat-menu-item class="buttonSubMenu">Lifestyle</button>
+      <button mat-menu-item class="buttonSubMenu">Sport</button>
+      <button mat-menu-item class="buttonSubMenu">Basket</button>
     </mat-menu>
   </div>
+  <div class="relative mr-6">
+    <input
+        type="text"
+        placeholder="Rechercher une paire..."
+        [(ngModel)]="searchQuery"
+        class="p-2 border-2 border-solid border-colorCream rounded-[32px] hover:bg-gray-200 text-ColorFontMenu hover:border-colorCream pl-8"
+    />
+    <mat-icon class="absolute text-gray-500 cursor-pointer top-2 left-2">search</mat-icon>
+</div>
 </div>
