@@ -23,4 +23,5 @@ export interface Sneaker {
    */
   image: string;
   // Ajouter un champ pour la description
+  description: string;
 }

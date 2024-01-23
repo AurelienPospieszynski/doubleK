@@ -3,13 +3,14 @@ import { Sneaker } from '../../app/models/sneaker.model';
 /**
  * Represents an array of sneakers.
  */
-export const SNEAKERS: Sneaker[] = [
+export const Sneakers: Sneaker[] = [
   {
     id: 1,
     name: 'Air Jordan 3 Retro Palomino',
     brand: 'Jordan',
     price: 165,
     image: 'AirJordan3.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Jordan',
     price: 350,
     image: 'AirJordan4.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 135,
     image: 'dunkHigh.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 4,
@@ -31,6 +34,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'dunkLow.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 5,
@@ -38,6 +42,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'New Balance',
     price: 110,
     image: 'NB530.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 6,
@@ -45,6 +50,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'New Balance',
     price: 130,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 7,
@@ -52,6 +58,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 8,
@@ -59,6 +66,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 9,
@@ -66,6 +74,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 10,
@@ -73,6 +82,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 11,
@@ -80,6 +90,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 12,
@@ -87,6 +98,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 13,
@@ -94,6 +106,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 14,
@@ -101,6 +114,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 15,
@@ -108,6 +122,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 16,
@@ -115,6 +130,7 @@ export const SNEAKERS: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
+    description: 'Les Jordan 1 : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
 
   // more sneakers...
