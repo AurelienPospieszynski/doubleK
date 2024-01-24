@@ -21,7 +21,7 @@ export class SneakerDetailComponent implements OnInit {
   }  
 
   getSneakerById(id: number) {
-    const sneaker = this.sneakerService.getSneakerById(id);
+    this.sneakerService.getSneakerById(id);
   }  
 }
  
