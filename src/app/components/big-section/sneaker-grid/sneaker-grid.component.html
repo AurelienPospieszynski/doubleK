@@ -28,11 +28,13 @@
               <p class="m-0">Marque: {{ sneaker.brand }}</p>
               <p class="m-0">Prix: {{ sneaker.price }}€</p>
             </div>
-            <img
+            <a [routerLink]="['/sneaker',sneaker.id]">
+              <img
               src="assets/pictures/sneakers/{{ sneaker.image }}"
               alt="img jordan 3"
               class="rounded-[32px] border-t-2 border-solid border-black rounded-t-none"
-            />
+              />
+            </a>
           </div>
         </div>
       </div>

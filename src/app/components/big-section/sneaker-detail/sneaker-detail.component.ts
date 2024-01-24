@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SneakerService } from '../../../services/SneakerService';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { routes } from '../../../app.routes';
 
 @Component({
   selector: 'app-sneaker-detail',
@@ -11,7 +12,8 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SneakerDetailComponent implements OnInit {
   constructor(private sneakerService: SneakerService,
-    private route: ActivatedRoute) {}
+    private route: ActivatedRoute,
+    private router: Router) {}
 
   ngOnInit() {
     this.route.params.subscribe(params => {
@@ -27,6 +29,7 @@ export class SneakerDetailComponent implements OnInit {
       console.log('Sneaker found:', sneaker);
     } else {
       console.log('Sneaker not found');
+      this.router.navigate(['/sneakers']);
     }
   }  
 }
