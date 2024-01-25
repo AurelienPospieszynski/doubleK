@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { SneakerService } from '../../../services/SneakerService';
 import { ActivatedRoute } from '@angular/router';
 import { Sneaker } from '../../../models/sneaker.model';
@@ -11,21 +11,23 @@ import { Sneaker } from '../../../models/sneaker.model';
   providers: [SneakerService],
 })
 export class SneakerDetailComponent implements OnInit {
+  public sneaker?: Sneaker;
 
-  constructor(private sneakerService: SneakerService,
-    private route: ActivatedRoute,) {}
+  constructor(
+    private sneakerService: SneakerService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit() {
-    this.route.params.subscribe(params => {
-      const id = +params['id']; 
-      this.getSneakerById(id);
+    this.route.params.subscribe((params) => {
+      const id = +params['id'];
+      this.sneaker = this.getSneakerById(id);
     });
-  }  
+  }
 
-  getSneakerById(id: number) {
-    this.sneakerService.getSneakerById(id);
-  }  
+  getSneakerById(id: number): Sneaker | undefined {
+    return this.sneakerService.getSneakerById(id);
+  }
 }
- 
-// Tu utiliseras dans ce composant la methode getSneakerById du service SneakerService et la route active
 
+// Tu utiliseras dans ce composant la methode getSneakerById du service SneakerService et la route active
