@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { SneakerService } from '../../../services/SneakerService';
 import { ActivatedRoute } from '@angular/router';
+import { Sneaker } from '../../../models/sneaker.model';
 
 @Component({
   selector: 'app-sneaker-detail',
@@ -10,6 +11,7 @@ import { ActivatedRoute } from '@angular/router';
   providers: [SneakerService],
 })
 export class SneakerDetailComponent implements OnInit {
+
   constructor(private sneakerService: SneakerService,
     private route: ActivatedRoute,) {}
 

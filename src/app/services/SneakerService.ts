@@ -6,9 +6,11 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class SneakerService {
-  private sneakers: Sneaker[] = Sneakers;
+  private sneakers: Sneaker[];
 
-  constructor() {}
+  constructor(sneakers: Sneaker[]) {
+    this.sneakers= sneakers;
+  }
 
   getSneakerById(id: number): Sneaker | undefined {
     return this.sneakers.find(sneaker => sneaker.id === id);
