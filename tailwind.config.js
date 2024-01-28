@@ -1,8 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,ts}'],
+  important: true,
+  content: ["./src/**/*.{html,scss,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        fontOrbitron: ["Orbitron", "sans-serif"],
+        fontMontserrat: ["Montserrat", "sans-serif"],
+      },
+      colors: {
+        colorMenu: "#fef8e0",
+        colorCream: "#a69e79",
+        ColorFontMenu: "#39360b",
+      },
+      screens: {
+        'xl': '1200px',
+        'custom': '1450px'
+      },
+    },
   },
   variants: {
     extend: {},

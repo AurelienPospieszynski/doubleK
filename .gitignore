@@ -402,3 +402,6 @@ FodyWeavers.xsd
 
 # dist folder
 **/dist/
+
+# .DS_Store
+.DS_Store

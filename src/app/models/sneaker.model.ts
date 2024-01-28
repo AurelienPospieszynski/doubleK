@@ -18,4 +18,12 @@ export interface Sneaker {
    * The price of the sneaker.
    */
   price: number;
+  /**
+   * The image of the sneaker.
+   */
+  image: string;
+  /**
+   * The description of the sneaker.
+   */
+  description: string;
 }
