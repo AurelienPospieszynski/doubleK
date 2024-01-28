@@ -22,5 +22,8 @@ export interface Sneaker {
    * The image of the sneaker.
    */
   image: string;
-  // Ajouter un champ pour la description
+  /**
+   * The description of the sneaker.
+   */
+  description: string;
 }

@@ -14,7 +14,6 @@ Swiper.use([Autoplay]);
   standalone: true,
   imports: [],
   templateUrl: './caroussel.component.html',
-  styleUrl: './caroussel.component.scss',
 })
 export class CarousselComponent implements AfterViewInit {
   // Inject the platform ID to check if we're on the server or browser.
