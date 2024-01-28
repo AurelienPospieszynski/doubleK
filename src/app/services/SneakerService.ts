@@ -10,8 +10,12 @@ export class SneakerService {
 
   constructor() {}
 
+  /**
+   * Retrieves a sneaker by its ID.
+   * @param id - The ID of the sneaker to retrieve.
+   * @returns The sneaker with the specified ID, or undefined if not found.
+   */
   getSneakerById(id: number): Sneaker | undefined {
     return this.sneakers.find((sneaker) => sneaker.id === id);
   }
 }
-// Definir une methode getSneakerById qui prend un id en parametre et qui retourne un sneaker

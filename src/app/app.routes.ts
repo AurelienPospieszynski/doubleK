@@ -5,9 +5,7 @@ import { AccueilComponent } from './components/accueil/accueil.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'accueil', pathMatch: 'full' },
-  { path: 'accueil', component : AccueilComponent  },
+  { path: 'accueil', component: AccueilComponent },
   { path: 'sneaker/:id', component: SneakerDetailComponent },
   { path: 'logo', redirectTo: '', pathMatch: 'full' },
 ];
-
-// Definir une route sneaker/:id qui affiche le composant SneakerDetailComponent

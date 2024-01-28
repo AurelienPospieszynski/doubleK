@@ -10,7 +10,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Jordan',
     price: 165,
     image: 'AirJordan3.png',
-    description: 'Air Jordan 3 Retro Palomino : Iconique, rétro, style Jordan emblématique revisité',
+    description:
+      'Air Jordan 3 Retro Palomino : Iconique, rétro, style Jordan emblématique revisité',
   },
   {
     id: 2,
@@ -18,7 +19,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Jordan',
     price: 350,
     image: 'AirJordan4.png',
-    description: 'Air Jordan 4 Retro SB Green : Vibrante, emblématique, fusion de style skateboard et Jordan, incontournable',
+    description:
+      'Air Jordan 4 Retro SB Green : Vibrante, emblématique, fusion de style skateboard et Jordan, incontournable',
   },
   {
     id: 3,
@@ -26,7 +28,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 135,
     image: 'dunkHigh.png',
-    description: 'Nike Air Force 1 High Green : Classique, emblématique, silhouette haute, confortable, style polyvalent, couleur vibrante.',
+    description:
+      'Nike Air Force 1 High Green : Classique, emblématique, silhouette haute, confortable, style polyvalent, couleur vibrante.',
   },
   {
     id: 4,
@@ -34,7 +37,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'dunkLow.png',
-    description: 'Dunk Low Medium Curry : Élégante, rétro, couleur terre cuite, silhouette basse, style polyvalent, confortable.',
+    description:
+      'Dunk Low Medium Curry : Élégante, rétro, couleur terre cuite, silhouette basse, style polyvalent, confortable.',
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'New Balance',
     price: 110,
     image: 'NB530.png',
-    description: 'NB530 Green & Brown : Rétro, silhouette classique, combinaison de vert et marron, confortable, style décontracté.',
+    description:
+      'NB530 Green & Brown : Rétro, silhouette classique, combinaison de vert et marron, confortable, style décontracté.',
   },
   {
     id: 6,
@@ -50,7 +55,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'New Balance',
     price: 130,
     image: 'NB550.png',
-    description: 'NB550 White Mint Green : Fraîcheur estivale, silhouette vintage, blanc et vert menthe, confortable, style décontracté.',
+    description:
+      'NB550 White Mint Green : Fraîcheur estivale, silhouette vintage, blanc et vert menthe, confortable, style décontracté.',
   },
   {
     id: 7,
@@ -58,7 +64,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
-    description: 'NB990v5 Grey : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'NB990v5 Grey : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 8,
@@ -66,7 +73,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
-    description: 'NB992 Grey : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'NB992 Grey : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 9,
@@ -74,7 +82,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
-    description: 'NB992 Black : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'NB992 Black : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 10,
@@ -82,7 +91,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'New Balance',
     price: 175,
     image: 'NB550.png',
-    description: 'NB992 White : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'NB992 White : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 11,
@@ -90,7 +100,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
-    description: 'DUNK LOW MEDIUM OLIVE : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'DUNK LOW MEDIUM OLIVE : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 12,
@@ -98,7 +109,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
-    description: 'DUNK LOW COAST : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'DUNK LOW COAST : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 13,
@@ -106,7 +118,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
-    description: 'DUNK LOW BLACK : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'DUNK LOW BLACK : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 14,
@@ -114,7 +127,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
-    description: 'DUNK LOW WHITE : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'DUNK LOW WHITE : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 15,
@@ -122,7 +136,8 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
-    description: 'DUNK LOW RED : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'DUNK LOW RED : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
   {
     id: 16,
@@ -130,8 +145,7 @@ export const Sneakers: Sneaker[] = [
     brand: 'Nike',
     price: 145,
     image: 'NB550.png',
-    description: 'DUNK LOW BLUE : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
+    description:
+      'DUNK LOW BLUE : emblématiques, cuir de qualité, style rétro, confort optimal, incontournables du streetwear.',
   },
-
-  // more sneakers...
 ];

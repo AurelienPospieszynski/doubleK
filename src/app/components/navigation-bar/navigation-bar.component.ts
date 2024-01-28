@@ -8,13 +8,17 @@ import { MatIconModule } from '@angular/material/icon';
 @Component({
   selector: 'app-navigation-bar',
   standalone: true,
-  imports: [MatButtonModule, MatMenuModule, FormsModule, MatIconModule, RouterModule],
+  imports: [
+    MatButtonModule,
+    MatMenuModule,
+    FormsModule,
+    MatIconModule,
+    RouterModule,
+  ],
   templateUrl: './navigation-bar.component.html',
 })
 export class NavigationBarComponent {
   searchQuery: string = '';
 
-  search() {
-    console.log('Recherche en cours :', this.searchQuery);
-  }
+  search() {}
 }
